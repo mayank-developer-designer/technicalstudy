@@ -1,0 +1,176 @@
+body{
+	margin: 0;
+	padding: 0;
+    background-color:#d9cdcc; }
+.card{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.card .main{
+	height:100px;
+	width: 100px;
+	font-size: 50px;
+	margin-left: 100px;
+	display: flex;
+	font-weight: bold;
+	justify-content: center;
+	align-items: center;
+	background-color: #ffff;
+	transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0,0);
+	transition: .5s;
+	box-shadow: -20px 20px 10px rgba(0,0,0,.5);
+
+}
+
+.card .main:before{
+content: '';
+position: absolute;
+top: 10px;
+left: -20px;
+height: 100%;
+width: 20px;
+background-color: #b1b1b1;
+transition: .5s;
+transform: rotate(0deg) skewY(-45deg);
+
+
+}
+
+.card .main:after{
+content: '';
+position: absolute;
+bottom: -20px;
+left: -10px;
+height: 20px;
+width: 100%;
+background-color: #b1b1b1;
+transition: .5s;
+transform: rotate(0deg) skewX(-45deg);
+
+
+}
+.card .main:hover{
+	transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px,-20px);
+box-shadow: -50px 50px 50px rgba(0,0,0,.5);
+
+/*M*/
+}.card .main:nth-child(1){
+	background-color:#242424;color: #fff;
+}
+.card .main:nth-child(1):hover{
+	background-color: #2b6eff;color: #fff;box-shadow: -50px 50px 50px #2b6eff;
+}.card .main:nth-child(1):after{
+	background-color:#141414;
+}
+.card .main:nth-child(1):hover:after{
+	background-color:#0051ff;
+}.card .main:nth-child(1):before{
+	background-color:#141414;
+}
+.card .main:nth-child(1):hover:before{
+	background-color:#0051ff;
+}
+
+/*A*/
+
+.card .main:nth-child(2){
+	background-color:#242424;color: #fff;
+}
+.card .main:nth-child(2):hover{
+	background-color: #a838ff;color:#fff;box-shadow: -50px 50px 50px #9000ff;
+}.card .main:nth-child(2):after{
+	background-color:#141414;
+}
+.card .main:nth-child(2):hover:after{
+	background-color:#9000ff;
+}.card .main:nth-child(2):before{
+	background-color:#141414;
+}
+.card .main:nth-child(2):hover:before{
+	background-color:#9000ff;
+}
+
+/*Y*/
+.card .main:nth-child(3){
+	background-color:#242424;color: #fff;
+}
+.card .main:nth-child(3):hover{
+	background-color: #40ff53;color: #fff;box-shadow: -50px 50px 50px #00ff1a;
+}
+.card .main:nth-child(3):after{
+	background-color:#141414;
+}
+.card .main:nth-child(3):hover:after{
+	background-color:#00ff1a;
+}
+.card .main:nth-child(3):before{
+	background-color:#141414;
+}
+.card .main:nth-child(3):hover:before{
+	background-color:#00ff1a;
+}
+
+/*A*/
+.card .main:nth-child(4){
+	background-color:#242424;color: #fff;
+}
+.card .main:nth-child(4):hover{
+	background-color: #ff6038;color: #fff;box-shadow: -50px 50px 50px #ff3300;
+}.card .main:nth-child(4):after{
+	background-color:#141414;
+}
+.card .main:nth-child(4):hover:after{
+	background-color:#ff3300;
+}.card .main:nth-child(4):before{
+	background-color:#141414;
+}
+.card .main:nth-child(4):hover:before{
+	background-color:#ff3300;
+}
+
+/*N*/
+
+.card .main:nth-child(5){
+	background-color:#242424;color: #fff;
+}
+.card .main:nth-child(5):hover{
+	background-color: #ff3377;color: #fff;box-shadow: -50px 50px 50px #ff0055;
+}.card .main:nth-child(5):after{
+	background-color:#141414;
+}
+.card .main:nth-child(5):hover:after{
+	background-color:#ff0055;
+}.card .main:nth-child(5):before{
+	background-color:#141414;
+}
+.card .main:nth-child(5):hover:before{
+	background-color:#ff0055;
+}
+
+
+/*K*/
+.card .main:nth-child(6){
+	background-color:#242424;color: #fff;
+}
+.card .main:nth-child(6):hover{
+	background-color:#42fff9;color: #000;box-shadow: -50px 50px 50px #00fcf4;
+}.card .main:nth-child(6):after{
+	background-color:#141414;
+}
+.card .main:nth-child(6):hover:after{
+	background-color:#00fcf4;
+}.card .main:nth-child(6):before{
+	background-color:#141414;
+}.card .main:nth-child(6):before{
+	background-color:#141414;
+}
+.card .main:nth-child(6):hover:before{
+	background-color:#00fcf4;
+}
